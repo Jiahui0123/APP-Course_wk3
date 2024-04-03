@@ -1,0 +1,51 @@
+{
+    "titleA": "Popular Books",
+    "dataA": [
+        {
+            "image": "https://s3-alpha-sig.figma.com/img/8098/894d/9cc9f0e42326b7024eeac18ad09f3c8e?Expires=1712534400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZUN3wNr8H~4yDQ64YMds2OW57--aVl97bGFGOtHnG-7NLZ-Kr3wm97MUNvNiieefUultJg~N86W720ZpVifWg8gPMXHdclXYE5FEedIT~m-sFzB~hB-ukLoZoAViI2oWtzkKF2CFRCX2VF319p9WXJ~LW3YRCJUN~eKbM~L4OBAzentd5cCrUNH8Q0VwfanFLcAIcg3oVRFLIn1nd77IPk3yPvJtYHod-nga7zY9Ie72XW59kjtdun-YG3HrChbTXQ9XM1bS1JX9nEuWRB3DaeitCmzdI8Z1z78UCf-HHLomTzxVVdDlKqIg4YPgWsDV0iKv-OJeiuA5-UnccLsVJQ__",
+            "star": -1,
+            "bookname": "Fashionopolis",
+            "author": "Dana Thomas",
+            "key": 0
+        },
+        {
+            "image": "../image/img_book_chanel.png",
+            "star": -1,
+            "bookname": "Chanel",
+            "author": "Patrick Mauriès",
+            "key": 1
+        },
+        {
+            "image": "../image/img_book_calligraphy.png",
+            "star": -1,
+            "bookname": "Calligraphy",
+            "author": "June & Lucy",
+            "key": 2
+        }
+    ],
+    "titleB": "Newest",
+    "dataB": [
+        {
+            "image": "../image/img_book_ysl.png",
+            "star": 4,
+            "bookname": "Yves Saint Laurent",
+            "author": "Suzy Menkes",
+            "key": 3,
+            "intro": "A spectacular visual journey through 40 years of haute couture from one of the best-known and most trend-setting brands in fashion."
+        },
+        {
+            "image": "../image/img_book_tbos.png",
+            "star": 3,
+            "bookname": "The Book of Signs",
+            "author": "Rudolf Koch",
+            "key": 4
+        },
+        {
+            "image": "../image/img_book_stitchedup.png",
+            "star": 3,
+            "bookname": "Stitched Up",
+            "author": "Tansy E.Hoskins",
+            "key": 5
+        }
+    ]
+}
