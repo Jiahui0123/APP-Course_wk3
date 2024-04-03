@@ -21,9 +21,7 @@ const DetailScreen = ({ route }) => {
     } = route.params;
     return (
         <View style={container}>
-            <View style={imageStyle}>
-                <Image source={img[key]} />
-            </View>
+            <Image source={img[key]} />
             <View>
                 <Text style={booknamestyle}>{bookname}</Text>
             </View>
@@ -35,9 +33,9 @@ const DetailScreen = ({ route }) => {
                 <Text> 4.0 / 5.0</Text>
             </View>
             <View style={introstyle}>
-                <Text>A spectacular visual journey through 40 years of</Text>
-                <Text>haute couture from one of the best-known and</Text>
-                <Text>most trend-setting brands in fashion.</Text>
+                <Text style={{ alignSelf: 'center' }}>A spectacular visual journey through 40 years of</Text>
+                <Text style={{ alignSelf: 'center' }}>haute couture from one of the best-known and</Text>
+                <Text style={{ alignSelf: 'center' }}>most trend-setting brands in fashion.</Text>
             </View>
             <View style={styles.cardContainerStyle}>
                 <Button
@@ -55,9 +53,7 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#fff',
         alignItems: 'center',
-    },
-    imageStyle: {
-        paddingTop: 10
+        justifyContent: 'center'
     },
     booknamestyle: {
         color: "#131313",
@@ -75,7 +71,7 @@ const styles = StyleSheet.create({
     introstyle: {
         width: 320,
         justifyContent: 'center',
-        paddingTop: 5
+        paddingTop: 5,
     },
     commentstyle: {
         flexDirection: "row",

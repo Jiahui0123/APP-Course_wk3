@@ -11,17 +11,16 @@ import img6 from "../image/img_book_stitchedup.png";
 const img = [img1, img2, img3, img4, img5, img6];
 
 const BookDetail = ({ book, navigation }) => {
-    const { CardContainerStyle, CardSectionStyle, headerContainerStyle, booknamestyle, authorstyle } = styles;
+    const { CardContainerStyle, headerContainerStyle, booknamestyle, authorstyle } = styles;
     return (
         <ScrollView>
             <View style={CardContainerStyle}>
-                <View style={CardSectionStyle}>
-                    <Pressable onPress={() => navigation.navigate('Detail', book)}>
-                        <Image
-                            source={img[book.key]}
-                        />
-                    </Pressable>
-                </View>
+                <Pressable onPress={() => navigation.navigate('Detail', book)}>
+                    <Image
+                        source={img[book.key]}
+                        style={{ height: 200, width: 140, marginBottom: 10 }}
+                    />
+                </Pressable>
             </View>
             <View>
                 <Star star={book.star} />
@@ -40,15 +39,11 @@ const styles = StyleSheet.create({
         marginRight: 5,
         marginTop: 10,
     },
-
-    CardSectionStyle: {
-
-    },
     headerContainerStyle: {
         flexDirection: "column",
         justifyContent: "space-around",
         paddingLeft: 20,
-        marginTop: 10,
+        marginTop: 5,
     },
     booknamestyle: {
         fontSize: 16,

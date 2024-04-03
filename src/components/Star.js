@@ -36,6 +36,7 @@ const styles = StyleSheet.create({
     starstyle: {
         height: 14,
         width: 14,
+        marginRight: 3
     },
     allstarstyle: {
         flexDirection: "row",
